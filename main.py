@@ -45,7 +45,7 @@ def menu():
         print(' Вы в главном меню\n 1) Проверка по нику\n 2) Проверка IP-adress \n'
               ' 3) Проверка BSSID\n 4) Проверка по номеру телефона')
         print(' 0) ! ВЫХОД !')
-        home_page = int(input('\n [+] Cделайте выбор: '))
+        home_page = int(input('\n [+] Cделайте выбор: '))+ 4
 
         if home_page == 0:
             break
